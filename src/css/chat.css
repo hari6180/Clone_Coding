@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* 상단 영역 --------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#header .back_bt {
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+/* 중앙 영역 --------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.message {
+	border-radius: 8%;
+}
+
+.second{
+	position: absolute;
+	top: 70px;
+	left: 102px;
+}
+
+.fr_text {
+	position: relative;
+}
+
+#number {
+	position: absolute;
+	right: 190px;
+	bottom: 125px;
+}
+
+#number2 {
+	position: absolute;
+	right: 190px;
+	bottom: 187px;
+}
+
+#number b, #number2 b {
+	color:#fa0;
+}
+
+/* 친구 메세지 --------------------------------------*/
+
+#content .friend_ms {
+    width: auto;
+    height: 90px;
+    padding: 10px 20px 5px 20px;
+    position: relative;
+}
+
+
+#content .friend_ms img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    border:1px solid #ccc;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#content .friend_ms .name {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#content .friend_ms .message {
+	display: block;
+    vertical-align: middle;
+  	float: left;
+    padding: 10px 20px;
+    background-color: #ccc;
+
+}
+
+/* 내 메세지 --------------------------------------*/
+#content .my_ms {
+	padding: 30px 0;
+}
+
+
+#content .my_ms .message {
+	float: right;
+	background-color: #ccc;
+	vertical-align: middle;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+
+
+/* 하단 영역 --------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#footer .file_send {
+	display: inline-block;
+	float: left;
+}
+
+#footer .search_icon, #footer .emoji {
+	display: inline-block;
+	float: right;
+}

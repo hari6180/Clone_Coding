@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Filename : friends.html
+        Author : hari
+        Description : 친구목록 html 파일 -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0,
+        maximum-scale=1.0, user-scalable=no">
+    <title>kakao talk</title>
+    <!-- 크로스 브라우징 호환성 부분 시작 -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <!-- 크로스 브라우징 호환성 부분 끝 -->
+
+    <link rel="apple-touch-icon" type="text/css" href="img/icon.png" />
+    <link rel="shortcut" type="text/css" href="img/icon.png">
+
+    <link rel="stylesheet" type="text/css" href="css/friends.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <!-- fontawesome(글리피콘) 적용 -->
+    <script src="https://kit.fontawesome.com/f27ac0bcc1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- 상단 바 -->
+        <div id="header">
+            <div class="fr_text1">Friends</div>
+            <div class="fr_icons">
+                <table>
+                    <tr>
+                        <td><img src="img/top_icon01.png"></td>
+                        <td><img src="img/top_icon02.png"></td>
+                        <td><img src="img/top_icon03.png"></td>
+                        <td><img src="img/top_icon04.png"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- 프로필 및 친구 목록 -->
+        <div id=content class="clear">
+            <div class="me">
+                <span class="me_img"><img src="img/friends/me1.png" /></span>
+                <div class=me_text>
+                    <span class="name"><b>짱구</b></span>
+                    <span class="profile">호호이</span>
+                </div>
+            </div>
+            <div class="line select_line">Friends with Brithdays <i id="show" class="fas fa-chevron-down"></i></div>
+            <div id="show_con" class="friends">
+                <span class="fr_img"><img src="img/birthday.png" /></span>
+                <div class=subfr>
+                    <span class="submenu">View more brithdays</span>
+                </div>
+            </div>
+            <div class="line select_line">Recommended Freinds <i class="fas fa-chevron-down"></i></div>
+            <div class="hidden show friends">
+                <span class="fr_img"><img src="img/friends/Screenshot_20190730-123053_NAVER.jpg" /></span>
+                <div class=subfr>
+                    <span class="submenu">Discover more people</span>
+                </div>
+            </div>
+            <div class="line select_line">Channel <i class="fas fa-chevron-down"></i></div>
+            <div class="hidden show friends">
+                <span class="fr_img"><img src="img/friends/Screenshot_20190730-123053_NAVER.jpg" /></span>
+                <div class=subfr>
+                    <span class="submenu">Channel</span>
+                </div>
+            </div>
+            <div class="line">Friends 7 <i class="fas fa-chevron-up"></i></div>
+            <div class="friends"><a href="chat.html">
+                    <span class="fr_img"><img src="img/friends/철수.jfif" /></span>
+                    <div class=fr_text>
+                        <span class="name"><b>철수</b></span>
+                        <span class="profile">학원가기싫다</span>
+                </a>
+                <span class="music">프리스타일- Y<img src="img/playicon.png" /></span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/Screenshot_20190730-123053_NAVER.jpg" /></span>
+            <div class=fr_text>
+                <span class="name"><b>유리</b></span>
+                <span class="profile">토끼좋아</span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/맹구.jpg" /></span>
+            <div class=fr_text>
+                <span class="name"><b>맹구</b></span>
+                <span class="profile">돌주우러가자</span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/훈이.jpg" /></span>
+            <div class=fr_text>
+                <span class="name"><b>훈이</b></span>
+                <span class="profile">ㅠㅠㅠㅠㅠㅠ</span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/짱아.jfif" /></span>
+            <div class=fr_text>
+                <span class="name"><b>짱아</b></span>
+                <span class="profile">따따따따따</span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/흰둥이.jfif" /></span>
+            <div class=fr_text>
+                <span class="name"><b>흰둥이</b></span>
+                <span class="profile">건드리지마라</span>
+                <span class="music">이태원프리덤 - UV<img src="img/playicon.png" /></span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/액션가면.jpg" /></span>
+            <div class=fr_text>
+                <span class="name"><b>액션가면</b></span>
+                <span class="profile">돈벌어먹기 빡세네</span>
+            </div>
+        </div>
+        <div class="friends">
+            <span class="fr_img"><img src="img/friends/액션가면.jpg" /></span>
+            <div class=fr_text>
+                <span class="name"><b>액션가면</b></span>
+                <span class="profile">돈벌어먹기 빡세네</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- 하단 바 -->
+    <div id="footer">
+        <table>
+            <tr>
+                <td><img src="img/bt_icon01_click.png"></td>
+                <td><a href="chat_list.html"><img src="img/bt_icon02.png"></a></td>
+                <td><img src="img/bt_icon03.png"></td>
+                <td><img src="img/bt_icon04.png"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+    <!-- 자바스크립트로 클래스 토글 처리 -->
+    <script>
+        var toggle = document.getElementById("show");
+        var line = document.getElementById("show_con");
+        var clicked = 0;
+        toggle.onclick = function(){
+          if(clicked){
+            line.className = "hidden";
+            clicked = 0;
+          }else{
+            line.className = "friends";
+            clicked = 1;
+        
+          }
+        }
+        </script>
+
+
+</body>
+
+</html>
